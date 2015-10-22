@@ -6,8 +6,8 @@ require 'delivery/version'
 Gem::Specification.new do |spec|
   spec.name          = "delivery"
   spec.version       = Delivery::VERSION
-  spec.authors       = ["James A. Anderson"]
-  spec.email         = ["me@jamesaanderson.com"]
+  spec.authors       = ["James A. Anderson", "Eric Nguyen"]
+  spec.email         = ["me@jamesaanderson.com", "eric@inhabit.io"]
   spec.description   = %q{A Ruby interface to the Delivery.com API}
   spec.summary       = %q{A Ruby interface to the Delivery.com API}
   spec.homepage      = ""
@@ -25,5 +25,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'coveralls', '~> 0.7.0'
 
   spec.add_dependency 'httparty', '~> 0.13.1'
-  spec.add_dependency 'hashie', '~> 2.1.0'
+  spec.add_dependency 'hashie'
 end
